@@ -1,16 +1,14 @@
-// массивы / array
+// методы массивов
+
+// .push(items) - добавить элемент в конец массива
+// arr.pop() - удалить элемент из конца массива
+// arr.shift() - удалить элемент из начала массива
+// arr.unshift(value) - добавить элемент в начало массива
+// arr.splice([start], [deleteCount, newElement])
 
 
-const autoBrand1 = 'Audi';
-const autoBrand2 = 'BMW';
-const autoBrand3 = 'Mazda';
-const autoBrand4 = 'Toyota';
-
-const autoBrands = ['lada', 'moskvich', 'huemayo', 'testors'];
-
+const autoBrands = ['brand1', 'brand2', 'brand3'];
 console.log(autoBrands);
 
-console.log(autoBrands[0]);
-console.log(autoBrands[3]);
-
-console.log(autoBrands.length);
+autoBrands.push('brand4add');
+console.log(autoBrands)
