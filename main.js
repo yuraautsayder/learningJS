@@ -11,6 +11,6 @@
 const autoBrands = ['test1', 'test2', 'test3', 'test4',];
 
 
-for (i = 0; i < autoBrands.length; i++) {
-    console.log(autoBrands[i]);
+for (let item of autoBrands) {
+    console.log(item)
 }
