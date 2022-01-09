@@ -1,16 +1,16 @@
-// function summ(a, b) {
-//     const result = a + b;
-// }
+// массивы / array
 
 
+const autoBrand1 = 'Audi';
+const autoBrand2 = 'BMW';
+const autoBrand3 = 'Mazda';
+const autoBrand4 = 'Toyota';
 
-// const summ = (a, b) => {
-//     return a + b;
-// };
+const autoBrands = ['lada', 'moskvich', 'huemayo', 'testors'];
 
+console.log(autoBrands);
 
+console.log(autoBrands[0]);
+console.log(autoBrands[3]);
 
-const summ = (a, b) => a + b;
-
-const res = summ(10, 30);
-console.log (res)
+console.log(autoBrands.length);
