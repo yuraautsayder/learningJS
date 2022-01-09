@@ -1,14 +1,16 @@
-// методы массивов
+// циклы
 
-// .push(items) - добавить элемент в конец массива
-// arr.pop() - удалить элемент из конца массива
-// arr.shift() - удалить элемент из начала массива
-// arr.unshift(value) - добавить элемент в начало массива
-// arr.splice([start], [deleteCount, newElement])
+// for (let i = 0; i < 5; i++) {
+//     console.log(i);
+// }
+
+// console.log('Finish')
+
+//обход массива циклом for 
+
+const autoBrands = ['test1', 'test2', 'test3', 'test4',];
 
 
-const autoBrands = ['brand1', 'brand2', 'brand3'];
-console.log(autoBrands);
-
-autoBrands.push('brand4add');
-console.log(autoBrands)
+for (i = 0; i < autoBrands.length; i++) {
+    console.log(autoBrands[i]);
+}
