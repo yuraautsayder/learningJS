@@ -11,6 +11,12 @@
 const autoBrands = ['test1', 'test2', 'test3', 'test4',];
 
 
-for (let item of autoBrands) {
-    console.log(item)
-}
+// for (let item of autoBrands) {
+//     console.log(item)
+// }
+
+// obhod massiv forEach()
+
+autoBrands.forEach(function(item, index){
+    console.log(`${item} => ${index}`);
+})
