@@ -1,3 +1,9 @@
-const sayHi = (name) => console.log(`Привет, ${name}! Как твои дела?`);
+// function summ(a, b) {
+//     const result = a + b;
+// }
 
-sayHi('Piter')
+// const summ = (a, b) => {
+//     return a + b;
+// };
+
+// const summ = (a, b) => a + b;
