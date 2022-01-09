@@ -1,8 +1,3 @@
-function sayHi(userName) {
-    console.log(`Привет, ${userName}! Как твои дела?`);
-}
+const sayHi = (name) => console.log(`Привет, ${name}! Как твои дела?`);
 
-sayHi('huesos')
-sayHi('raz')
-sayHi('dva')
-sayHi('tri')
+sayHi('Piter')
