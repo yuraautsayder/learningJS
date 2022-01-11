@@ -1,4 +1,4 @@
-// this
+// for in обход объектов циклов -- for in может обходить неитерируемые объекты
 
  const person = {
     userName: 'imya',
@@ -10,4 +10,17 @@
     }
  }
 
- person.sayHi('toster')
+for (let key in person) {
+    console.log(key )
+}
+
+// ньюанс const и изменение объекта или массива 
+
+
+const personTest = {
+    userName: 'imya',
+    age: 30,
+}
+
+personTest.prof = "tosterEbaniy";
+console.log(personTest)
