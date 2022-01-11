@@ -1,16 +1,13 @@
-// объекты 
+// this
 
-let userName = 'mark';
-let age = 24;
-let isMarried = false;
+ const person = {
+    userName: 'imya',
+    age: 30,
 
-const person = {
-    userName: 'Ivan',
-    age: 24,
-    isMarried: false,
+    sayHi: function (name) {
+        console.log(this)
+        console.log(`Privet, ${name}, menya zovit ${this.userName}` );
+    }
+ }
 
-}
-
-console.log(person)
-console.log(person.userName)
-console.log(person['age'])
+ person.sayHi('toster')
