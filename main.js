@@ -17,4 +17,5 @@ const person2 = new Person('troy', 30, true);
 
 console.log(person1)
 console.log(person2)
-person1.sayHi('ahuel')
+person1.sayHi('ahuel') 
+console.log('inzhener')
